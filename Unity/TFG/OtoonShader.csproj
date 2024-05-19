@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A7877583-17AB-0A6B-5FBF-BD4793F3F5F3}</ProjectGuid>
+    <ProjectGuid>{849652BB-5EDE-947F-A14A-88489B8597C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>OtoonShader</AssemblyName>

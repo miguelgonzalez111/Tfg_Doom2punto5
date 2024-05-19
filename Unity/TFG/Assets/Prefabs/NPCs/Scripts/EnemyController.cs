@@ -12,7 +12,7 @@ public class EnemyController : MonoBehaviour
     public AudioClip[] AtackSounds;
     public AudioClip[] IdleSounds;
     public float IdleSoundTime;
-    float nextIdleSound;
+    float nextIdleSound=0;
     AudioSource enemyAS;
     Animator animator;
     [Header("opciones")]
@@ -32,18 +32,31 @@ public class EnemyController : MonoBehaviour
             nmAgent.destination = player.transform.position;
         }
 
-        if ( nextIdleSound < Time.time && findPlayer)
+        if (enemyMove)
+        {
+            
+            animator.SetBool("Run", true);
+        }
+        else
+        {
+            animator.SetBool("Run", false);
+        }
+
+        if ( nextIdleSound < Time.time && !enemyAS.isPlaying)
         {
             AudioClip tempClip = IdleSounds[Random.Range(0, IdleSounds.Length)];
             enemyAS.clip = tempClip;
             enemyAS.Play();
             nextIdleSound = IdleSoundTime + Time.time;
         }
-        if (animator.GetCurrentAnimatorStateInfo(1).IsTag("Attack") && !enemyAS.isPlaying)
+        
+        if (animator.GetCurrentAnimatorStateInfo(1).IsTag("Attack")&& !enemyAS.isPlaying)
         {
             AudioClip tempClip = AtackSounds[Random.Range(0, AtackSounds.Length)];
             enemyAS.PlayOneShot(tempClip);
         }
+
+       
 
     }
     void OnTriggerStay(Collider other)

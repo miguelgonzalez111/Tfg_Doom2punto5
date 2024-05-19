@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE6211E2-29FB-083C-9652-901D4F945876}</ProjectGuid>
+    <ProjectGuid>{D511647F-1CA8-193F-9CBD-90CBAE574051}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>OtoonEditor</AssemblyName>
@@ -779,7 +779,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="OtoonShader.csproj">
-      <Project>{A7877583-17AB-0A6B-5FBF-BD4793F3F5F3}</Project>
+      <Project>{849652BB-5EDE-947F-A14A-88489B8597C3}</Project>
       <Name>OtoonShader</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3D4B0869-A767-190A-B714-BB6DF644612D}</ProjectGuid>
+    <ProjectGuid>{FBDA7D0D-9E20-63BB-F6C3-1B3147711886}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -954,23 +954,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FB112415-DF37-FFF0-193C-C41C1F943A0D}</Project>
+      <Project>{62873BB6-A352-5450-430A-56E3FCEBDD74}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="OtoonEditor.csproj">
-      <Project>{AE6211E2-29FB-083C-9652-901D4F945876}</Project>
+      <Project>{D511647F-1CA8-193F-9CBD-90CBAE574051}</Project>
       <Name>OtoonEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{4BBDB5E6-1AE8-E2F4-0AFC-F28F9155FC60}</Project>
-      <Name>CFXREditor</Name>
-    </ProjectReference>
     <ProjectReference Include="OtoonShader.csproj">
-      <Project>{A7877583-17AB-0A6B-5FBF-BD4793F3F5F3}</Project>
+      <Project>{849652BB-5EDE-947F-A14A-88489B8597C3}</Project>
       <Name>OtoonShader</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{1B0707B4-9D1A-1938-17F8-0E589807B1AE}</Project>
+      <Name>CFXREditor</Name>
+    </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{C305236D-385E-8F2F-0987-CA53C0B3AE7F}</Project>
+      <Project>{D42F834F-A0BC-A34F-DFF8-D4EC9F011CCA}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
   </ItemGroup>

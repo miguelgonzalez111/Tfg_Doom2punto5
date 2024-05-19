@@ -260,6 +260,22 @@ MonoBehaviour:
   player: {fileID: 0}
   enemyMove: 0
   findPlayer: 0
+  AtackSounds:
+  - {fileID: 8300000, guid: 44b5c3a85493d1340ac80990ddc7467b, type: 3}
+  - {fileID: 8300000, guid: 867ac36e3ef450845af97b91fbe8dcd1, type: 3}
+  - {fileID: 8300000, guid: 279c4962903a9084bbe8e34aeba636b2, type: 3}
+  - {fileID: 8300000, guid: f7904e03977689344aeef2501e8257d3, type: 3}
+  IdleSounds:
+  - {fileID: 8300000, guid: ed8769138eb2fe94db5a043c20cfb303, type: 3}
+  - {fileID: 8300000, guid: 7b5fba925e986b64c9029642d2f54401, type: 3}
+  - {fileID: 8300000, guid: 1c88c6204f385094db0ba180a755321e, type: 3}
+  - {fileID: 8300000, guid: c751ac2ed40ff6b4d9c3b0911f95f8ca, type: 3}
+  - {fileID: 8300000, guid: 418e720561ecd6946b8f0c15465f3a19, type: 3}
+  - {fileID: 8300000, guid: 9823b65c5605b9c4d849f8351ab3edb1, type: 3}
+  - {fileID: 8300000, guid: c09e789b1e9f5b649a1c864e77c35dd0, type: 3}
+  - {fileID: 8300000, guid: 69409459c2d7ca0468238f642c7cf2b8, type: 3}
+  - {fileID: 8300000, guid: 8b2f36e378786c049beb79c18e4ba91a, type: 3}
+  IdleSoundTime: 4
   lockTarget: 1
 --- !u!1 &2097899487383102409
 GameObject:
@@ -658,7 +674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   proyectil: {fileID: 9200451077966840906, guid: 429708d16641cb14d8ea0b61416d4b46, type: 3}
-  timeBetweenAttacks: 1
+  timeBetweenAttacks: 4
   timeBeforeAttack: 1.25
   startingPoint: {fileID: 4304097657925326183}
 --- !u!1 &4976478427305572663
@@ -732,8 +748,8 @@ MonoBehaviour:
   damageModifier: 1
   damageParticles: {fileID: 7458342281794802671, guid: dc8cb69ca0ea1e54cbdf0ef31fd25e66, type: 3}
   deathParticles: {fileID: 5045138405618836422, guid: 82054722e13283a4f9cd5245cc3aa1ba, type: 3}
-  drop: {fileID: 0}
-  drops: 0
+  drop: {fileID: 5749957752366415181, guid: f0b21251ccedfef41922d46299afd4fb, type: 3}
+  drops: 1
   deathSounds:
   - {fileID: 8300000, guid: 721806bc8a580ab49b3e8701be329b58, type: 3}
   - {fileID: 8300000, guid: 2187bc618e46c234490d780bded17061, type: 3}
@@ -743,6 +759,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cb5d88410adca4a4d99e459ab9f55cd9, type: 3}
   - {fileID: 8300000, guid: e835169c6f777324b835c3f71f16ea17, type: 3}
   - {fileID: 8300000, guid: 58d3000d3c4c1504a9f4ce84c78db8ea, type: 3}
+  IsBoss: 0
+  healthBar: {fileID: 0}
 --- !u!1 &5044497907160279751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,7 +1335,6 @@ GameObject:
   - component: {fileID: 6335074337075405447}
   - component: {fileID: 4411194839381889365}
   - component: {fileID: 8997384194457197041}
-  - component: {fileID: 6805118715299991018}
   - component: {fileID: 7207276056211770476}
   - component: {fileID: 7994413556926168071}
   m_Layer: 0
@@ -1341,10 +1358,10 @@ Transform:
   m_Children:
   - {fileID: 7283806035573333836}
   - {fileID: 7904404531988448382}
+  - {fileID: 7150327381481078021}
+  - {fileID: 108796389494983954}
   - {fileID: 1590962856010465793}
   - {fileID: 1102570535568134480}
-  - {fileID: 108796389494983954}
-  - {fileID: 7150327381481078021}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -1410,18 +1427,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6805118715299991018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7547083805926968366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 789587c424354cb48826c7ec84cc2d0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &7207276056211770476
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1443,9 +1448,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1478,7 +1483,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
