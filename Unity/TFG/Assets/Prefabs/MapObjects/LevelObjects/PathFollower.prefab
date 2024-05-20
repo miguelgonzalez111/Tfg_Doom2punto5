@@ -689,15 +689,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Nodes:
   - m_Position: {x: 0, y: 0, z: 0}
-    m_Duration: 18
-  - m_Position: {x: 44, y: 0, z: 0}
-    m_Duration: 4
-  - m_Position: {x: 44, y: 12, z: 0}
-    m_Duration: 18
-  - m_Position: {x: 0, y: 12, z: 0}
-    m_Duration: 4
+    m_Duration: 10
+  - m_Position: {x: -44, y: -12, z: 0}
+    m_Duration: 2
+  - m_Position: {x: -88, y: -24, z: 0}
+    m_Duration: 2
+  - m_Position: {x: -132, y: -36, z: 0}
+    m_Duration: 2
   m_StartFactor: 0
-  m_ResetAfterLastNode: 0
+  m_ResetAfterLastNode: 1
   m_UseRotationForMovement: 0
 --- !u!1 &181314
 GameObject:
