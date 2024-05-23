@@ -1,0 +1,692 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64074
+Successfully changed project path to: E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG
+E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8736] Host "[IP] 192.168.1.137 [Port] 0 [Flags] 2 [Guid] 3551560205 [EditorId] 3551560205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8736] Host "[IP] 192.168.1.137 [Port] 0 [Flags] 2 [Guid] 3551560205 [EditorId] 3551560205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007305 seconds.
+- Loaded All Assemblies, in  0.347 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.305 seconds
+Domain Reload Profiling: 650ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.013 seconds
+Refreshing native plugins compatible for Editor in 11.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1858ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (780ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (443ms)
+			TypeCache.Refresh (391ms)
+				TypeCache.ScanAssembly (372ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (0.7 MB). Loaded Objects now: 6663.
+Memory consumption went from 280.1 MB to 279.4 MB.
+Total: 5.044200 ms (FindLiveObjects: 0.958200 ms CreateObjectMapping: 0.367800 ms MarkObjects: 3.300700 ms  DeleteObjects: 0.415800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 179930.978216 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj
+  artifactKey: Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj using Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61152924bfaa732e002ef3469f85ede5') in 0.016610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.015994 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj
+  artifactKey: Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj using Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c083eb8d21a0f48d148f8217179084') in 0.004512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.701812 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj
+  artifactKey: Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-prowler-toy/source/prowler_toy_LOD0/prowler_toy_LOD0.obj using Guid(2119c96eec86d344199e064440966b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8be9e2f7c4d5dbb41608f0fea4689d') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2251.361913 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource
+  artifactKey: Guid(f3577d400a6d7f44faf09135e7fbdf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource using Guid(f3577d400a6d7f44faf09135e7fbdf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4d17fab9f08144378a58d1b82d9f77') in 0.001758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.495840 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpIdle.wav
+  artifactKey: Guid(10f1c664a72058045bb593a0b86004e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpIdle.wav using Guid(10f1c664a72058045bb593a0b86004e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2cfc65163978986f8cc277c812b3d') in 0.001824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.451781 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpIdle2.wav
+  artifactKey: Guid(9622398f72a51344d9d0d8fd4bba3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpIdle2.wav using Guid(9622398f72a51344d9d0d8fd4bba3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02861e95bc29b48ce8e935d40a766beb') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.923834 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpIdle11.wav
+  artifactKey: Guid(a724facb25fa65b499c3b08c9c1b2741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpIdle11.wav using Guid(a724facb25fa65b499c3b08c9c1b2741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc8653434cb13e215046fc135fbc32') in 0.001457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.537199 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpFart.wav
+  artifactKey: Guid(8af71ea11c495a147bcb70bb86e7563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpFart.wav using Guid(8af71ea11c495a147bcb70bb86e7563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea3a592c010ab0eb0633145853855ee') in 0.001119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.785167 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDMGTop.wav
+  artifactKey: Guid(33b06fe91bbeb2e43aec28d1949e8949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDMGTop.wav using Guid(33b06fe91bbeb2e43aec28d1949e8949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea487884b7eb614f09e5ba17b86421') in 0.001332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.183038 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDeath.wav
+  artifactKey: Guid(543c94b927ab9f54d8d9e4cdb7cebb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDeath.wav using Guid(543c94b927ab9f54d8d9e4cdb7cebb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a025450231836b571d5cced7a9d70c5b') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.129924 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDeath2.wav
+  artifactKey: Guid(721806bc8a580ab49b3e8701be329b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDeath2.wav using Guid(721806bc8a580ab49b3e8701be329b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bf75b02f3709791736b88104ce1e32') in 0.001023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.925544 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDeathTop.wav
+  artifactKey: Guid(5b52abfe2aac7a8468b0762408cca2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDeathTop.wav using Guid(5b52abfe2aac7a8468b0762408cca2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb48f5b0bc598914aeaa77f3016652dd') in 0.001189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.832882 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDMG.wav
+  artifactKey: Guid(0b5589782543c294781cd9fb710c4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDMG.wav using Guid(0b5589782543c294781cd9fb710c4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4936506efed7348b5d536217e25c8a89') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.580085 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDMG3.wav
+  artifactKey: Guid(cb5d88410adca4a4d99e459ab9f55cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDMG3.wav using Guid(cb5d88410adca4a4d99e459ab9f55cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c6e13ca82b78d73b3108a6450d0e75') in 0.001099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.674093 seconds.
+  path: Assets/Prefabs/Audio/ImpAudioSource/ImpDMG6.wav
+  artifactKey: Guid(4d35ad9111c4c90468e0ab490d8c6307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio/ImpAudioSource/ImpDMG6.wav using Guid(4d35ad9111c4c90468e0ab490d8c6307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9921f0b5a56519b4d10924177dc1d4') in 0.001170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 114.178586 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Imp_Toy_Ready.prefab
+  artifactKey: Guid(d79dec1034b048040a6fd22975819bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Imp_Toy_Ready.prefab using Guid(d79dec1034b048040a6fd22975819bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe3916183f4b67cc31a97946baa960b') in 0.025974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 1.087325 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Imp_Skelmesh #4310@T-Pose.prefab
+  artifactKey: Guid(13041399d76bd364298938e7218f47c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Imp_Skelmesh #4310@T-Pose.prefab using Guid(13041399d76bd364298938e7218f47c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d28de50bb5cc8a191d4777899cf6963') in 0.015559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.146 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.989 seconds
+Domain Reload Profiling: 3131ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (768ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (398ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (363ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (823ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.7 MB). Loaded Objects now: 6670.
+Memory consumption went from 228.3 MB to 227.6 MB.
+Total: 5.809200 ms (FindLiveObjects: 0.765200 ms CreateObjectMapping: 0.227100 ms MarkObjects: 4.220400 ms  DeleteObjects: 0.595300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 871.788842 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp.controller
+  artifactKey: Guid(2d7e0c0b0ec0db94eb1bbeacbcdd97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp.controller using Guid(2d7e0c0b0ec0db94eb1bbeacbcdd97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f66a987cf21482101c8c2a6824a45d7') in 0.053514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 109.557424 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh #4310@Standing Sprint Forward.fbx
+  artifactKey: Guid(fd5c82eca74e33d40a3f76acdc071613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh #4310@Standing Sprint Forward.fbx using Guid(fd5c82eca74e33d40a3f76acdc071613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4164a84bceb5adc7d03d4e5a69ae0d0e') in 0.003975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 101.883311 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations
+  artifactKey: Guid(59f222b43ec8df542aad3655086c89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations using Guid(59f222b43ec8df542aad3655086c89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87941b1b09e8feae8146d646a93b14c9') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.848929 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Ninja_Idle.fbx
+  artifactKey: Guid(72e85ea35b35c3c4eb6842d9442e07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Ninja_Idle.fbx using Guid(72e85ea35b35c3c4eb6842d9442e07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f056099f05512dcf96a061d5f7ae38d') in 0.005582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 6.053654 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Idle.fbx
+  artifactKey: Guid(0293977837103ff46beab6cd0b96f473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Idle.fbx using Guid(0293977837103ff46beab6cd0b96f473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03154863b335f699f529166dcc246f5a') in 0.003750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 5.474458 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Idle 03.fbx
+  artifactKey: Guid(ab1031b0c910c024e9492255dbb1b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Idle 03.fbx using Guid(ab1031b0c910c024e9492255dbb1b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f8d1273369a07494113c5e3392febe') in 0.004135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 14.777391 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh #4310@Standing Land To Standing Idle.fbx
+  artifactKey: Guid(ed7a0b24f9fffb341986229f0f932607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh #4310@Standing Land To Standing Idle.fbx using Guid(ed7a0b24f9fffb341986229f0f932607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72697eac5e1c9029408bbe7c01c95a1a') in 0.004752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 5.976094 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing 1H Magic Attack 01.fbx
+  artifactKey: Guid(a7f54b208cc1b63408ad046ccd9365b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing 1H Magic Attack 01.fbx using Guid(a7f54b208cc1b63408ad046ccd9365b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb8a6afc58852b28974b3c0fcc2685a') in 0.007201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.620264 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing 1H Magic Attack 02.fbx
+  artifactKey: Guid(0cef131c73c725740ad2e2c9f27df905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing 1H Magic Attack 02.fbx using Guid(0cef131c73c725740ad2e2c9f27df905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91beba4f0a8a3e56ba9691467b33c0be') in 0.003875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 6.169468 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Death Forward.fbx
+  artifactKey: Guid(6be811fdb0bf9f742bd0662ccbf8c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Death Forward.fbx using Guid(6be811fdb0bf9f742bd0662ccbf8c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be41f4438773361c7d1356b3e9d0362a') in 0.003993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.666307 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Death Right.fbx
+  artifactKey: Guid(5016cb02ada13294bacdf440810251e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Death Right.fbx using Guid(5016cb02ada13294bacdf440810251e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd5fdb711513af96a863b2f959b0c74') in 0.004747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.494068 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Small From Front.fbx
+  artifactKey: Guid(ddf595cbf23f21349b53ba96048c38de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing React Small From Front.fbx using Guid(ddf595cbf23f21349b53ba96048c38de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579682a43ba5837a7eb55c49d4b5bd7d') in 0.003341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.585566 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Run Forward.fbx
+  artifactKey: Guid(0bdca408bfcbbad41b2fdf88619f4aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-imp-toy/Animations/Imp_Skelmesh@Standing Run Forward.fbx using Guid(0bdca408bfcbbad41b2fdf88619f4aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09168572df760e05a73ae30c299ea7bc') in 0.004768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 129.592813 seconds.
+  path: Assets/Prefabs/NPCs/hellknight-toy/HellKnight_Toy/Animations/HellKnightAnimator.controller
+  artifactKey: Guid(009d4e1487176c9448b744a3175ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/hellknight-toy/HellKnight_Toy/Animations/HellKnightAnimator.controller using Guid(009d4e1487176c9448b744a3175ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beca1adb9d8def2c368e6d2f8f6dac50') in 0.005137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.958 seconds
+Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.336 seconds
+Domain Reload Profiling: 2285ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (361ms)
+				TypeCache.ScanAssembly (345ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.7 MB). Loaded Objects now: 6675.
+Memory consumption went from 228.4 MB to 227.7 MB.
+Total: 5.336300 ms (FindLiveObjects: 0.813700 ms CreateObjectMapping: 0.255500 ms MarkObjects: 3.810800 ms  DeleteObjects: 0.455000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.927 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.443 seconds
+Domain Reload Profiling: 2362ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (655ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (361ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (333ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.7 MB). Loaded Objects now: 6680.
+Memory consumption went from 228.4 MB to 227.7 MB.
+Total: 5.559500 ms (FindLiveObjects: 0.982600 ms CreateObjectMapping: 0.326700 ms MarkObjects: 3.691500 ms  DeleteObjects: 0.556900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.925 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2358ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (659ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (329ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.7 MB). Loaded Objects now: 6685.
+Memory consumption went from 228.4 MB to 227.7 MB.
+Total: 5.744600 ms (FindLiveObjects: 1.114400 ms CreateObjectMapping: 0.377700 ms MarkObjects: 3.779200 ms  DeleteObjects: 0.471500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
