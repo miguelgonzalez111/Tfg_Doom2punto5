@@ -441,6 +441,7 @@
 "Assets/ElCoco/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/ElCoco/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/ElCoco/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/InvertNormals.cs"
 "Assets/Prefabs/FX/CartoonEffectsToChulos/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs"
 "Assets/Prefabs/FX/CartoonEffectsToChulos/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs"
 "Assets/Prefabs/FX/CartoonEffectsToChulos/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs"

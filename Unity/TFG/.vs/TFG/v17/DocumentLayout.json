@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\assets\\prefabs\\npcs\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\prefabs\\fx\\ultimate 10 plus shaders\\shaders\\lava3d.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\assets\\prefabs\\fx\\ultimate 10 plus shaders\\shaders\\lava3d.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\fx\\ultimate 10 plus shaders\\shaders\\lava3d.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "InvertNormals.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\InvertNormals.cs",
+              "RelativeDocumentMoniker": "Assets\\InvertNormals.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\InvertNormals.cs",
+              "RelativeToolTip": "Assets\\InvertNormals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:36:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Lava3D.shader",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
               "ViewState": "AQIAAAwAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-05-22T21:18:06.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T21:18:06.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AttackRangeDetection.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyAnim.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
@@ -83,16 +99,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
               "ToolTip": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwDEAAAApAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T21:52:15.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T21:52:15.418Z"
             }
           ]
         }

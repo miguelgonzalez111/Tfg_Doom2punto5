@@ -180,6 +180,7 @@
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\SwimModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Input\PlayerInput.cs" />
     <Compile Include="Assets\Prefabs\MapObjects\BuildingBlockForMap\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\InvertNormals.cs" />
     <Compile Include="Assets\ElCoco\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\ZiplineModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Objetos\Other\Scripts\healthPickUp.cs" />
