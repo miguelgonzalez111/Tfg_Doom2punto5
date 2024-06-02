@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(startScene);
+        CargaNivel.NivelCarga(startScene);
     }
     public void QuitGame()
     {
