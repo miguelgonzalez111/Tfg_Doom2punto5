@@ -171,7 +171,6 @@ GameObject:
   - component: {fileID: 5600100674262226811}
   - component: {fileID: 3036989935473331108}
   - component: {fileID: 7144975212368376821}
-  - component: {fileID: 2017193724369905817}
   m_Layer: 0
   m_Name: PathController
   m_TagString: Untagged
@@ -245,27 +244,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0c4a944eb6e675d46b356df2d47abf3e, type: 3}
   IdleSoundTime: 5
   lockTarget: 1
---- !u!65 &2017193724369905817
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241727910749705714}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10, y: 10, z: 40}
-  m_Center: {x: 0, y: -35.78, z: 0}
 --- !u!1 &2150248451372545520
 GameObject:
   m_ObjectHideFlags: 0
