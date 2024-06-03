@@ -420,7 +420,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 2908022755783251640}
   m_Enabled: 1
   m_AgentTypeID: -334000983
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
@@ -597,7 +597,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.01
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
@@ -1045,7 +1045,6 @@ GameObject:
   - component: {fileID: 6853309222427190577}
   - component: {fileID: 2359714203288487853}
   - component: {fileID: 4669645542008770815}
-  - component: {fileID: 7870082224143944360}
   m_Layer: 0
   m_Name: PathController
   m_TagString: Untagged
@@ -1088,7 +1087,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 10, y: 4, z: 10}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: -24.68, z: 0}
 --- !u!114 &4669645542008770815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1145,27 +1144,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d2d143c5fb2d16e4c8e1e9c025b90d3e, type: 3}
   IdleSoundTime: 5
   lockTarget: 1
---- !u!65 &7870082224143944360
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4698441275370952148}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10, y: 10, z: 40}
-  m_Center: {x: 0, y: -35.78, z: 0}
 --- !u!1 &5445128726435179532
 GameObject:
   m_ObjectHideFlags: 0

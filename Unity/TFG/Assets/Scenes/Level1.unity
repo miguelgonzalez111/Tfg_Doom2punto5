@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44824737, g: 0.49827373, b: 0.5755824, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482476, g: 0.49827403, b: 0.575583, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1878,63 +1878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 70ba767334a61ef4a9e4716f934d5526, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - {m_Target: {fileID: 0}, m_TargetAssemblyTypeName: , m_MethodName: , m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: , m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
-    m_ActionId: 5530d360-8760-4497-9321-946cc493abf0
-    m_ActionName: PlayerControls/Shoot[/XInputControllerWindows1/rightShoulder,/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: 24df8b17-a22a-45d1-a0f4-7969068bf262
-    m_ActionName: PlayerControls/Movement[/XInputControllerWindows1/dpad,/XInputControllerWindows1/leftStick,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: 27d33986-2cf0-45e8-975e-8f859f72cccc
-    m_ActionName: PlayerControls/Jump[/Keyboard/space,/XInputControllerWindows1/buttonSouth]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: b50e778a-9854-47aa-922e-1b7e37615b66
-    m_ActionName: PlayerControls/WeaponChange[/Keyboard/ctrl,/XInputControllerWindows1/buttonNorth]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: 9d3f74af-3e71-42c1-ac68-8070317d1ff8
-    m_ActionName: PlayerControls/Dash[/Mouse/rightButton,/XInputControllerWindows1/buttonEast]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: f4692340-ab98-40ae-a1c4-03561c92a2c2
-    m_ActionName: PlayerControls/Crouch[/XInputControllerWindows1/dpad/down,/XInputControllerWindows1/leftStick/down,/XInputControllerWindows1/leftStick/left,/Keyboard/s]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-    m_ActionId: 6defaf2e-a3b0-4cdf-95ef-572f09c88813
-    m_ActionName: PlayerControls/Run[/XInputControllerWindows1/leftShoulder,/Keyboard/shift]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerControls
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1001 &75217181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4908,7 +4851,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 06a2bfe5976933f40bf01601d619f09a, type: 2}
   m_BuildHeightMesh: 0
@@ -4939,7 +4882,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: f41a710b78135a641a1d1bdb593266b2, type: 2}
   m_BuildHeightMesh: 0
@@ -6954,6 +6897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1198489084}
     m_Modifications:
+    - target: {fileID: 1922462388771887077, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2359714203288487853, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_Center.y
       value: -24.68
@@ -6964,7 +6911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908022755783251640, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4669645542008770815, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: player
@@ -8642,7 +8589,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
@@ -13142,11 +13089,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1922462388771887077, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_Radius
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2359714203288487853, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
-      propertyPath: m_Center.y
-      value: -24.68
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 2908022755783251640, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_Name
@@ -13200,8 +13143,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7870082224143944360, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -18942,7 +18884,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 3194c5c5b9f148c45a3291b2dd247fa6, type: 2}
   m_BuildHeightMesh: 0
@@ -18973,7 +18915,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 8b40c03ca2c533e4dba2fd26d1173efe, type: 2}
   m_BuildHeightMesh: 0
@@ -27869,6 +27811,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1198489084}
     m_Modifications:
+    - target: {fileID: 1922462388771887077, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2359714203288487853, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_Center.y
       value: -24.68
@@ -27879,7 +27825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908022755783251640, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4669645542008770815, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: player
@@ -28047,13 +27993,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1198489084}
     m_Modifications:
-    - target: {fileID: 542687755393020905, guid: 7b36ff7a8aaee9847a268ccad5ba3efa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -25.93
-      objectReference: {fileID: 0}
     - target: {fileID: 1915692200734844366, guid: 7b36ff7a8aaee9847a268ccad5ba3efa, type: 3}
       propertyPath: m_Name
       value: MechaZombie_Ready
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605929802794798928, guid: 7b36ff7a8aaee9847a268ccad5ba3efa, type: 3}
+      propertyPath: m_Radius
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4124631161841795834, guid: 7b36ff7a8aaee9847a268ccad5ba3efa, type: 3}
       propertyPath: player
@@ -29924,6 +29870,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1198489084}
     m_Modifications:
+    - target: {fileID: 1922462388771887077, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2359714203288487853, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_Center.y
       value: -24.68
@@ -29934,7 +29884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908022755783251640, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4669645542008770815, guid: c1fe57eae47588042a3f8ddccbd1e7a7, type: 3}
       propertyPath: player
@@ -35265,6 +35215,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3244358917891724735, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
+      propertyPath: pushBackForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244358917891724735, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
+      propertyPath: horizontalStartingLift
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3967435195339949120, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -35328,6 +35286,14 @@ PrefabInstance:
     - target: {fileID: 7377308327835821914, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585779091609553047, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
+      propertyPath: pushBackForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585779091609553047, guid: 38e856c2fbe83ec45a179300e1e9259c, type: 3}
+      propertyPath: horizontalStartingLift
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
