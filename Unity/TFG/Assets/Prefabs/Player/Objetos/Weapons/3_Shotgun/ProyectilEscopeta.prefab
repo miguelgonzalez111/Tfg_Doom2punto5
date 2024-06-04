@@ -483,10 +483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 10
-  maxSpread: -0.15
-  minSpread: -0.1
+  damage: 6
+  speed: 24
+  maxSpread: -0.03
+  minSpread: -0.01
 --- !u!1 &1993406217112576018
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +770,7 @@ Transform:
   - {fileID: 6319760453563792444}
   - {fileID: 7558702166752396086}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4098945143032443993
 MonoBehaviour:
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e72d9a348ee529498abdc9ca9cebe7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aliveTime: 1
+  aliveTime: 5
 --- !u!1 &2570906452266048271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,10 +1167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 10
-  maxSpread: 0.15
-  minSpread: 0.1
+  damage: 6
+  speed: 24.5
+  maxSpread: 0.03
+  minSpread: 0.01
 --- !u!1 &4386758514223892106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,10 +1459,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 6
-  maxSpread: -0.5
-  minSpread: -0.45
+  damage: 6
+  speed: 20
+  maxSpread: -0.16
+  minSpread: -0.14
 --- !u!1 &4690793049490546257
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,10 +2789,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 7
-  maxSpread: 0.4
-  minSpread: 0.35
+  damage: 6
+  speed: 21.5
+  maxSpread: 0.14
+  minSpread: 0.12
 --- !u!1001 &1291217585687438689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2894,10 +2894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 8
-  maxSpread: -0.3
-  minSpread: -0.25
+  damage: 6
+  speed: 22
+  maxSpread: -0.12
+  minSpread: -0.06
 --- !u!1001 &2735838908329920639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3230,10 +3230,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 7
-  maxSpread: -0.4
-  minSpread: -0.35
+  damage: 6
+  speed: 21
+  maxSpread: -0.14
+  minSpread: -0.12
 --- !u!1001 &3191673950960004630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3445,10 +3445,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 9
-  maxSpread: -0.2
-  minSpread: -0.15
+  damage: 6
+  speed: 23
+  maxSpread: -0.06
+  minSpread: -0.03
 --- !u!1001 &6424205275933641683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3550,10 +3550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 6
-  maxSpread: 0.5
-  minSpread: 0.45
+  damage: 6
+  speed: 20.5
+  maxSpread: 0.16
+  minSpread: 0.14
 --- !u!1001 &8728686731022159348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3655,10 +3655,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 8
-  maxSpread: 0.3
-  minSpread: 0.25
+  damage: 6
+  speed: 22.5
+  maxSpread: 0.12
+  minSpread: 0.06
 --- !u!1001 &8882481189911184474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3760,7 +3760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03145b14f87efc94baa906dca3d58b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 9
-  maxSpread: 0.2
-  minSpread: 0.15
+  damage: 6
+  speed: 23.5
+  maxSpread: 0.06
+  minSpread: 0.03

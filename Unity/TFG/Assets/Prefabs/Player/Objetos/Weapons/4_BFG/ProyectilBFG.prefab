@@ -10030,7 +10030,7 @@ Transform:
   m_GameObject: {fileID: 2675886715366204618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2675886715365849326}
@@ -14845,7 +14845,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.61
+  m_Radius: 0.8
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7780725649653928491
 MonoBehaviour:
@@ -14859,8 +14859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e21a25794a5e0f4bb701361c8a3195f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
-  speed: 5
+  damage: 999
+  speed: 10
 --- !u!1 &2675886715366204622
 GameObject:
   m_ObjectHideFlags: 0
@@ -44487,9 +44487,9 @@ MonoBehaviour:
     useMainCamera: 1
     cameras: []
     delay: 0
-    duration: 0.5
+    duration: 1
     shakeSpace: 0
-    shakeStrength: {x: 0.1, y: 0.1, z: 0.3}
+    shakeStrength: {x: 1, y: 1, z: 1}
     shakeCurve:
       serializedVersion: 2
       m_Curve:
@@ -44877,7 +44877,7 @@ Transform:
   m_GameObject: {fileID: 7779190552411835269}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1179644180267252617}

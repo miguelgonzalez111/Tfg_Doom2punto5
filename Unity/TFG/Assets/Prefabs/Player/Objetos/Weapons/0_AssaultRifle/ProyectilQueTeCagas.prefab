@@ -33,7 +33,7 @@ Transform:
   - {fileID: 6265281144187096561}
   - {fileID: 2945983345811932508}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!54 &4536443223148358161
 Rigidbody:
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e72d9a348ee529498abdc9ca9cebe7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aliveTime: 1
+  aliveTime: 5
 --- !u!1001 &5288981569654885660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  speed: 10
+  speed: 20
 --- !u!1001 &5863249873421811100
 PrefabInstance:
   m_ObjectHideFlags: 0
