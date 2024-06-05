@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 92
+  controlID: 79
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 153
+  controlID: 77
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 31
+  controlID: 78
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 32
+  controlID: 20
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -691,7 +691,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/NPCs/doom-eternal-mecha-zombie-toy-1
+    - Assets/Prefabs/NPCs/doom-eternal-prowler-toy
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -699,30 +699,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/NPCs/doom-eternal-mecha-zombie-toy-1
+  - Assets/Prefabs/NPCs/doom-eternal-prowler-toy
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 167}
-    m_SelectedIDs: 469a0000
-    m_LastClickedID: 39494
-    m_ExpandedIDs: 00000000529900005499000056990000589900005a9900005c9900005e99000060990000629900006499000066990000689900006a9900006c99000070990000729900007499000076990000789900007a9900007c9900007e99000080990000829900008499000086990000889900008a9900008c9900008e99000090990000929900009499000096990000989900009a9900009c9900009e990000a0990000a2990000a4990000a6990000a8990000aa990000ac990000ae990000b0990000b2990000b4990000b6990000b8990000ba990000bc990000be990000c0990000c2990000c4990000309a0000329a0000229c00002c9c00002e9c0000349c0000369c0000389c000000ca9a3b
+    m_SelectedIDs: 4e9a0000
+    m_LastClickedID: 39502
+    m_ExpandedIDs: 000000006c9900006e99000070990000729900007499000076990000789900007a9900007c9900007e99000080990000829900008499000086990000889900008a9900008c9900008e99000090990000929900009499000096990000989900009a9900009c9900009e990000a0990000a2990000a4990000a6990000a8990000aa990000ac990000ae990000b0990000b2990000b4990000b6990000b8990000ba990000bc990000be990000c0990000c2990000c4990000c6990000c8990000ca990000cc990000ce990000d0990000d2990000d4990000d6990000d8990000da990000dc990000de990000e0990000e2990000e4990000e6990000e8990000ea990000ec990000429a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: doom-eternal-prowler-toy
-      m_OriginalName: doom-eternal-prowler-toy
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 39496
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -736,7 +736,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000529900005499000056990000589900005a9900005c9900005e99000060990000629900006499000066990000689900006a9900006c9900006e99000070990000729900007499000076990000789900007a9900007c9900007e99000080990000829900008499000086990000889900008a9900008c9900008e99000090990000929900009499000096990000989900009a9900009c9900009e990000a0990000a2990000a4990000a6990000a8990000aa990000ac990000ae990000b0990000b2990000b4990000b6990000b8990000ba990000bc990000be990000c0990000c2990000c4990000
+    m_ExpandedIDs: 000000006c9900006e99000070990000729900007499000076990000789900007a9900007c9900007e99000080990000829900008499000086990000889900008a9900008c9900008e99000090990000929900009499000096990000989900009a9900009c9900009e990000a0990000a2990000a4990000a6990000a8990000aa990000ac990000ae990000b0990000b2990000b4990000b6990000b8990000ba990000bc990000be990000c0990000c2990000c4990000c6990000c8990000ca990000cc990000ce990000d0990000d2990000d4990000d6990000d8990000da990000dc990000de990000e0990000e2990000e4990000e6990000e8990000ea990000ec990000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -763,7 +763,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -878,21 +878,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fcbae1ff3489feffc68afeffe08afefffa8afeff148bfeff2e8bfeff488bfeff628bfeff7c8bfeff968bfeffb08bfeffb48cfeffb891feff609afeff10a0feffba9dffff8aa1ffff60b0ffffa4b4ffff56caffff5acaffff5ecaffff8acaffff8ecaffff92caffffbecaffffcacaffff86daffff0addffff12fbffff5278000058790000e27a0000587b0000667b0000107c0000b07c0000ce7c0000367e0000c67e0000388000006a800000
+      m_ExpandedIDs: d42af8ff78b2f9ff946afeff12fbffffbe7800005c790000a07a0000e67a00005c7b0000b67c0000d47c0000cc7e00004080000072800000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Proyectil_Cohete
-        m_OriginalName: Proyectil_Cohete
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -94998
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1297,9 +1297,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.092201, y: 0.13489574, z: 8.3967}
+    m_Target: {x: 122.718346, y: -98.346565, z: -800.6609}
     speed: 2
-    m_Value: {x: 25.092201, y: 0.13489574, z: 8.3967}
+    m_Value: {x: 122.718346, y: -98.346565, z: -800.6609}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1345,13 +1345,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.052277807, y: -0.4972066, z: 0.030000113, w: -0.865572}
+    m_Target: {x: 0.046132833, y: -0.041346848, z: -0.0020212294, w: -0.99814576}
     speed: 2
-    m_Value: {x: -0.052185945, y: -0.4997855, z: 0.030155871, w: -0.86404955}
+    m_Value: {x: 0.04312936, y: -0.044344347, z: -0.0020264108, w: -0.9980829}
   m_Size:
-    m_Target: 10
+    m_Target: 15.041609
     speed: 2
-    m_Value: 10.000001
+    m_Value: 15.041609
   m_Ortho:
     m_Target: 0
     speed: 2
