@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\prefabs\\mapobjects\\combatbosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\mapobjects\\combatbosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CombatBossTrigger.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:10:32.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InvertNormals.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\InvertNormals.cs",
               "RelativeDocumentMoniker": "Assets\\InvertNormals.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Lava3D.shader",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AttackRangeDetection.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnemyAnim.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",

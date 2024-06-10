@@ -6,12 +6,17 @@ public class CombatBossTrigger : MonoBehaviour
 {
     public GameObject pared;
     public GameObject pared2; // El objeto que queremos activar/desactivar
+    public GameObject lava;
 
     public Vector3 boxSize = new Vector3(10f, 10f, 10f); // Tamaño de la caja de detección
     public string enemyTag = "Enemy"; // Tag del enemigo a detectar
 
     private bool enemyDetected = false; // Inicializar la variable
 
+    private void Start()
+    {
+        StartCoroutine(RaiseLava());
+    }
     void Update()
     {
         DetectEnemies();
@@ -55,9 +60,20 @@ public class CombatBossTrigger : MonoBehaviour
     {
         pared.SetActive(true);
         pared2.SetActive(true);
+        StartCoroutine(RaiseLava());
     }
 
-    
+    private IEnumerator RaiseLava()
+    {
+        while (true) // Puedes cambiar esto a una condición específica si necesitas detener el aumento en algún momento
+        {
+            // Incrementa la altura de la lava gradualmente
+            lava.transform.position += new Vector3(0, 0.1f, 0);
+            yield return new WaitForSeconds(0.1f); // Espera un pequeño período de tiempo antes de incrementar de nuevo
+        }
+    }
+
+
 
 
 
