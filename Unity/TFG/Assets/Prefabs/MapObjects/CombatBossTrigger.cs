@@ -11,12 +11,12 @@ public class CombatBossTrigger : MonoBehaviour
     public Vector3 boxSize = new Vector3(10f, 10f, 10f); // Tamaño de la caja de detección
     public string enemyTag = "Enemy"; // Tag del enemigo a detectar
 
-    private bool enemyDetected = false; // Inicializar la variable
+    public bool enemyDetected = false; // Inicializar la variable
 
-    private void Start()
-    {
-        StartCoroutine(RaiseLava());
-    }
+    //private void Start()
+    //{
+    //    StartCoroutine(RaiseLava());
+    //}
     void Update()
     {
         DetectEnemies();
