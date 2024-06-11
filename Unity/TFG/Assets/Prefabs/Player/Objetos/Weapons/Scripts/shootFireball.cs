@@ -33,8 +33,18 @@ public class shootFireball : MonoBehaviour{
             {
                 enemyHealth.addDamage(damage);
             }
-            
+
+            // Destruir el objeto actual
             Destroy(gameObject);
+
+            // Destruir todos los objetos padres en la jerarquía
+            Transform currentParent = transform.parent;
+            while (currentParent != null)
+            {
+                Transform nextParent = currentParent.parent;
+                Destroy(currentParent.gameObject);
+                currentParent = nextParent;
+            }
 
         }
     }

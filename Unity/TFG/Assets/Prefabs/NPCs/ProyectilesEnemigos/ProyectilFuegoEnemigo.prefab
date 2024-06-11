@@ -45,7 +45,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.6207441, b: 0.20392156, a: 1}
-  m_Intensity: 4.9305463
+  m_Intensity: 0
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4972,9 +4972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b74349cd19bd9d41ae5d18ffeda4881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  pushBackForce: 5
-  horizontalStartingLift: 15
+  damage: 15
+  pushBackForce: 8
+  horizontalStartingLift: 8
 --- !u!65 &8324498314289516381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5033,7 +5033,7 @@ Transform:
   - {fileID: 1831075897480015917}
   - {fileID: 436295617058013817}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8233052245685673010
 ParticleSystem:
@@ -9999,7 +9999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a287b4f69600584787c1c751be3eede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
+  force: 25
 --- !u!54 &7836256984249001518
 Rigidbody:
   m_ObjectHideFlags: 0

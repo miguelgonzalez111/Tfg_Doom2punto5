@@ -402,7 +402,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 3
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -678,10 +678,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb3d1cff8ae6b6498d2ac65e6c45b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  damageRate: 0.5
+  damage: 20
+  damageRate: 1
   pushBackForce: 8
-  horizontalStartingLift: 10
+  horizontalStartingLift: 8
 --- !u!1 &3751214928574564861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,10 +1473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb3d1cff8ae6b6498d2ac65e6c45b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  damageRate: 0.5
+  damage: 20
+  damageRate: 1
   pushBackForce: 8
-  horizontalStartingLift: 10
+  horizontalStartingLift: 8
 --- !u!1 &7901295050711724122
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\prefabs\\player\\objetos\\weapons\\scripts\\shootfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\player\\objetos\\weapons\\scripts\\shootfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\prefabs\\mapobjects\\combatbosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\mapobjects\\combatbosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_doom2punto5\\unity\\tfg\\assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62873BB6-A352-5450-430A-56E3FCEBDD74}|Assembly-CSharp.csproj|solutionrelative:assets\\invertnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "shootFireball.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\shootFireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\shootFireball.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\shootFireball.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\shootFireball.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwCUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:04:03.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CombatBossTrigger.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\MapObjects\\CombatBossTrigger.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InvertNormals.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\InvertNormals.cs",
               "RelativeDocumentMoniker": "Assets\\InvertNormals.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "Assets\\InvertNormals.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T10:36:32.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T10:36:32.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Lava3D.shader",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\FX\\Ultimate 10 Plus Shaders\\Shaders\\Lava3D.shader",
@@ -80,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AttackRangeDetection.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnemyAnim.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",

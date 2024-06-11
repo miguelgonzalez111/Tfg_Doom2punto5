@@ -4972,9 +4972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b74349cd19bd9d41ae5d18ffeda4881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  pushBackForce: 5
-  horizontalStartingLift: 15
+  damage: 10
+  pushBackForce: 8
+  horizontalStartingLift: 8
 --- !u!65 &8324498314289516381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5034,7 +5034,7 @@ Transform:
   - {fileID: 436295617058013817}
   - {fileID: 4539545020008877611}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8233052245685673010
 ParticleSystem:
@@ -10000,7 +10000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a287b4f69600584787c1c751be3eede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
+  force: 20
 --- !u!54 &7836256984249001518
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10040,7 +10040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e72d9a348ee529498abdc9ca9cebe7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aliveTime: 3
+  aliveTime: 5
 --- !u!1001 &4539545020008748205
 PrefabInstance:
   m_ObjectHideFlags: 0
