@@ -12,9 +12,5 @@ public class cleaner : MonoBehaviour
             playerHealth playerDead = other.gameObject.GetComponent<playerHealth>();
             playerDead.makeDead();
         }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 }
