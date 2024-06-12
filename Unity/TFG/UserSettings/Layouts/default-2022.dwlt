@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 31
+  controlID: 170
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,8 +145,8 @@ MonoBehaviour:
     y: 0
     width: 333
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -321,14 +321,14 @@ MonoBehaviour:
     y: 0
     width: 1101
     height: 593
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 480}
   m_Scope: 1
-  m_SplitterFlex: 0.2
+  m_SplitterFlex: 0
   m_SearchText: 
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Audio/Weapons/AssaultRifle
+    - Assets/Prefabs/Audio/Weapons/RocketLauncher
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -733,16 +733,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/Audio/Weapons/AssaultRifle
+  - Assets/Prefabs/Audio/Weapons/RocketLauncher
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: E:\WORKSPACE\git\Tfg_Doom2punto5\Unity\TFG
+  m_LastProjectPath: F:\Tfg_Doom2punto5\Unity\TFG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae100000
-    m_LastClickedID: 4270
-    m_ExpandedIDs: 00000000be0700001e080000ce0800000a09000046090000520a0000660a00000e0b0000da0d0000020f00003e0f0000960f0000fe0f00003610000022110000461100007e110000ce110000da1100002a1300003e130000e21300001e140000461400007e140000121500001e15000046150000f21500002616000026170000be170000f21700003e180000da180000ea180000b2190000c6190000e21900003e1a0000561a0000c61a0000121b0000261b00007a1b0000e21b0000b61c00006a1d0000fef2010000f3010002f3010004f3010006f3010008f301000af301000cf301000ef3010010f3010012f3010014f3010016f3010018f301001af301001cf301001ef3010020f3010022f3010024f3010026f3010028f3010000ca9a3b
+    scrollPos: {x: 0, y: 319}
+    m_SelectedIDs: 889f0000
+    m_LastClickedID: 40840
+    m_ExpandedIDs: 00000000a29d0000a49d0000a69d0000a89d0000aa9d0000ac9d0000ae9d0000b09d0000b29d0000b49d0000b69d0000b89d0000ba9d0000bc9d0000be9d0000c09d0000c29d0000c49d0000c69d0000c89d0000ca9d0000cc9d0000ce9d0000d09d0000d29d0000d49d0000d69d0000d89d0000da9d0000dc9d0000de9d0000e09d0000e29d0000e49d0000e69d0000e89d0000ea9d0000ec9d0000ee9d0000f09d0000f29d0000f49d0000f69d0000f89d0000fa9d0000fc9d0000fe9d0000009e0000029e0000049e0000069e0000089e00000a9e00000c9e00000e9e0000109e0000129e0000149e0000169e0000189e00001a9e00001c9e00001e9e0000209e0000229e0000249e0000269e0000289e0000909e0000749f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -770,7 +770,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be0700001e080000ce08000046090000de0900000e0b00003e0f0000fe0f00003610000022110000461100007e110000ce110000da1100002a1300003e130000e21300001e140000461400007e140000121500001e15000046150000f21500002616000026170000be170000f21700003e180000da180000ea180000b2190000c6190000e21900003e1a0000561a0000c61a0000121b0000261b00007a1b0000e21b0000b61c00006a1d0000fef2010000f3010002f3010004f3010006f3010008f301000af301000cf301000ef3010010f3010012f3010014f3010016f3010018f301001af301001cf301001ef3010020f3010022f3010024f3010026f3010028f30100
+    m_ExpandedIDs: 00000000a29d0000a49d0000a69d0000a89d0000aa9d0000ac9d0000ae9d0000b09d0000b29d0000b49d0000b69d0000b89d0000ba9d0000bc9d0000be9d0000c09d0000c29d0000c49d0000c69d0000c89d0000ca9d0000cc9d0000ce9d0000d09d0000d29d0000d49d0000d69d0000d89d0000da9d0000dc9d0000de9d0000e09d0000e29d0000e49d0000e69d0000e89d0000ea9d0000ec9d0000ee9d0000f09d0000f29d0000f49d0000f69d0000f89d0000fa9d0000fc9d0000fe9d0000009e0000029e0000049e0000069e0000089e00000a9e00000c9e00000e9e0000109e0000129e0000149e0000169e0000189e00001a9e00001c9e00001e9e0000209e0000229e0000249e0000269e0000289e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -867,7 +867,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 1026
+  m_LastVerticalScrollValue: 220
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -909,21 +909,21 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: a06de3ffd853efffacb5f3ffae26f8ffde28f8ff423cfcff7a67fcff7e67fcffe278fcffe090fcff5291fcff5491fcff3892fcffd893fcff4297fcff6e98fcff7098fcff709bfcff749bfcff789bfcff7c9bfcff949bfcff989bfcff9c9bfcffa09bfcffa49bfcffa89bfcffac9bfcffd89bfcff149ffcff189ffcff1c9ffcff209ffcff389ffcff3c9ffcff409ffcff449ffcff489ffcff4c9ffcff509ffcff7c9ffcff02a2fcff0aa2fcffdea4fcffe0a4fcff9eaefcffa0aefcff90b1fcff6eb4fcffbab5fcffc2b5fcff1eb7fcff22b7fcff26b7fcff2ab7fcff42b7fcff46b7fcff4ab7fcff4eb7fcff52b7fcff56b7fcff5ab7fcff86b7fcff90b9fcff92b9fcffbebafcffd2bafcffe6bafcfffabafcff0ebbfcff16bbfcff1abbfcff1ebbfcff22bbfcff26bbfcff5cbbfcff62bbfcff66bbfcffe0bcfcffe2bcfcff8cbdfcffeebefcfff0befcff78c2fcff66c8fcff1acbfcff1ccbfcffc0cefcfff6d3fcffaed6fcffb0d6fcffb0dafcffb8dafcffeadafcffeedafcfff2dafcfff6dafcff0edbfcff12dbfcff16dbfcff1adbfcff1edbfcff22dbfcff26dbfcff52dbfcffacddfcff16e1fcff46e2fcff92e3fcff94e3fcff68e6fcff6ce6fcff70e6fcff74e6fcff8ce6fcff90e6fcff94e6fcff98e6fcff9ce6fcffa0e6fcffa4e6fcffd0e6fcff26ebfcff28ebfcfff0ecfcff8aeefcff5ceffcff24f3fcff26f3fcff0af5fcff12f5fcffeaf5fcffecf5fcffe4f7fcffe6f7fcff86fbfcff70fcfcff86fffcff88fffcffc8fffcfff4ffffff68d60100c0d601003ad7010050d7010092d70100f4d7010048d90100a2d90100a8da010008db01003adc0100c4dc01005add01004ade010066df010048e001004ee0010064e001007ce0010084e00100e2e0010092e1010096e1010098e10100a8e10100b0e1010030e2010042e2010066e201008ce20100aee20100b6e20100c0e20100cce2010088350300d6380300423e0300b04703007a4e03001c500300465103008e6f0300c87c0300108a0300e8900300429e03006ca0030054a1030056a4030052a70300
+      scrollPos: {x: 0, y: 1800}
+      m_SelectedIDs: e8dcffff
+      m_LastClickedID: -8984
+      m_ExpandedIDs: 027fe4ffcaececffda65f1ff3894f6ffa84ff7ffec73ffffce9dffffd69dffff669effffa69effffba9effffce9effffe29efffff69efffffe9effff029fffff069fffff0a9fffff0e9fffff129fffff3e9fffff449fffff4a9fffff4e9fffff3eddfffffee5ffff00e6ffff94f9ffffda7800004a790000547900006a7900000e7a00007c7b0000a47b0000c47b0000167c0000267d0000587e0000727e0000688000008c8000009e800000c6810000568200006a82000070820000a6820000ac830000b08300001c840000d4840000be2f01002645010024470100e8480100444c0100a0550100625b0100426b010062880100649301006c9801003a9b010088a50100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Zombie_ready
-        m_OriginalName: Zombie_ready
+        m_Name: CombatPit
+        m_OriginalName: CombatPit
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -215148
+        m_UserData: -8898
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -1331,9 +1331,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.83, y: 0.92, z: -0.026738167}
+    m_Target: {x: 126.24738, y: -121.6985, z: -1012.9727}
     speed: 2
-    m_Value: {x: 4.8299737, y: 0.9199878, z: -0.026787927}
+    m_Value: {x: 126.24738, y: -121.6985, z: -1012.9727}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1379,13 +1379,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07470851, y: -0.6887865, z: 0.07791375, w: 0.71775377}
+    m_Target: {x: 0.0012852886, y: 0.99013156, z: -0.14362715, w: -0.016309412}
     speed: 2
-    m_Value: {x: 0.07466189, y: -0.6883567, z: 0.07786513, w: 0.7173059}
+    m_Value: {x: 0.0017150862, y: 0.98955435, z: -0.14353248, w: -0.013330573}
   m_Size:
-    m_Target: 10
+    m_Target: 42.116684
     speed: 2
-    m_Value: 10.000013
+    m_Value: 40.303047
   m_Ortho:
     m_Target: 0
     speed: 2
