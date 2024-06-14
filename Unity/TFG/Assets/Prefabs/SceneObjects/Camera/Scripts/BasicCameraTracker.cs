@@ -9,7 +9,13 @@ public class BasicCameraTracker : MonoBehaviour {
     [SerializeField] bool m_UseFixedUpdate = false;
     [SerializeField] public float m_ZDistance = 10.0f;
     [SerializeField] public float m_YOffset = 2.0f;
+    public int targetFrameRate;
 
+    private void Start()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = targetFrameRate;
+    }
     void FixedUpdate () 
 	{
         if (m_UseFixedUpdate)
