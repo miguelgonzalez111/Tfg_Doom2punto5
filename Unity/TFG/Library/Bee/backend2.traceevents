@@ -1,636 +1,408 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1718364981823730, "dur":19112, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718364981842847, "dur":146, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718364981843054, "dur":306, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718364981843371, "dur":3712, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718364981847087, "dur":20465654, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718365002312743, "dur":278, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718365002313198, "dur":46881, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1718364981843914, "dur":3257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718364981847173, "dur":1052, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718364981848226, "dur":5481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718364981853708, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1718364981885250, "dur":12631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1718364981897967, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1718364981898084, "dur":12918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1718364981911086, "dur":9048, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364981911084, "dur":9051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364981920332, "dur":19671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364981940114, "dur":108502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364981940112, "dur":108506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982048629, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982051034, "dur":9905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982051032, "dur":9908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982060949, "dur":8445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982069452, "dur":10368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982069451, "dur":10370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982079839, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982083317, "dur":12065, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982083315, "dur":12068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982095395, "dur":7128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982102584, "dur":9570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982102583, "dur":9574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982112195, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718364982116298, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\OtoonShader.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982116296, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/OtoonShader.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982116451, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/OtoonShader.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982118840, "dur":192337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982118839, "dur":192339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982311194, "dur":36339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718364982347550, "dur":19965173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718364981843786, "dur":3306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718364981847094, "dur":6429, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718364981911080, "dur":23727, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":2, "ts":1718364981934813, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364981935216, "dur":9197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1718364981944415, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1718364981944641, "dur":83165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718364982027808, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718364982028380, "dur":985502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718364983013891, "dur":1244048, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718364984258000, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player3af3f26c-inputdata.json" }}
-,{ "pid":12345, "tid":2, "ts":1718364981934812, "dur":2323632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364984259134, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718364984259593, "dur":4483054, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364988746202, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364988746201, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364988746411, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718364988747878, "dur":13564900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364981843877, "dur":3259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364981847139, "dur":1138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364981848277, "dur":5419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364981853698, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1718364981912388, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1718364981917621, "dur":45467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981917620, "dur":45469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981963105, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981965004, "dur":26064, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981965002, "dur":26068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Collections.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981991082, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Collections.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981992044, "dur":5154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981992044, "dur":5156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981997212, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981998686, "dur":5001, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364981998685, "dur":5003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982003698, "dur":25656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982029413, "dur":6994, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982029412, "dur":6996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982036479, "dur":158, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982036638, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982039071, "dur":7958, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982039069, "dur":7961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982047040, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982049700, "dur":11016, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982049698, "dur":11020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982060728, "dur":8840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982069624, "dur":11494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982069623, "dur":11497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982081135, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982086079, "dur":12631, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982086078, "dur":12633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982098734, "dur":7213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718364982106044, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982106379, "dur":158, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982106541, "dur":64938, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982106540, "dur":64940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982171499, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982173742, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982175523, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177216, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177364, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177485, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177558, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177742, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177863, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982177929, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178108, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178275, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178451, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178561, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178635, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178796, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982178893, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179027, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179093, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179245, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179377, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179437, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179560, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179627, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179754, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982179853, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180002, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180104, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180269, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180361, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180544, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180646, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180818, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982180918, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181080, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181180, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181415, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181558, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181743, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181848, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982181996, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982182085, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982182275, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982182602, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982182849, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718364982183243, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1718364982185329, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718364982187080, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1718364982189089, "dur":16229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1718364982205534, "dur":1527948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1718364983733499, "dur":18579246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718364981843919, "dur":3258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718364981847178, "dur":1213, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718364981848391, "dur":5348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718364981853746, "dur":8286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718364981853739, "dur":8295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718364981915752, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718364981920209, "dur":34812, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981920208, "dur":34814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.InternalAPIEngineBridge.001.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981955037, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.InternalAPIEngineBridge.001.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981956654, "dur":20858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981956653, "dur":20860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.SpriteShape.Runtime.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981977522, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.SpriteShape.Runtime.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981978337, "dur":3821, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981978337, "dur":3823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981982173, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981983089, "dur":4222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981983088, "dur":4224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981987328, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981988260, "dur":9160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981988259, "dur":9163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981997431, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981998751, "dur":4594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364981998750, "dur":4596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982003361, "dur":25615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982029033, "dur":9512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982029032, "dur":9515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982038564, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982040595, "dur":6931, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982040595, "dur":6933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982047540, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982049960, "dur":8264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982049959, "dur":8266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982058243, "dur":11970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982070281, "dur":13137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982070279, "dur":13140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982083434, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982086435, "dur":10172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982086433, "dur":10176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982096624, "dur":9233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718364982105946, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718364982106147, "dur":34422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982106145, "dur":34426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982140598, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982142332, "dur":118944, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982142331, "dur":118947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982261289, "dur":11736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718364982273123, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1718364982274094, "dur":20038642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718364981844019, "dur":3634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718364981847654, "dur":5941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718364981853604, "dur":9221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1718364981853596, "dur":9231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1718364981917365, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1718364981919744, "dur":22213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981919742, "dur":22218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Common.Runtime.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981941986, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Common.Runtime.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981944026, "dur":19632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.MemoryProfiler.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981944026, "dur":19635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981963680, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981965874, "dur":31080, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981965873, "dur":31082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981996973, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981998382, "dur":5295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364981998381, "dur":5297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982003687, "dur":25788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982029531, "dur":6858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982029530, "dur":6861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982036401, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982038270, "dur":8859, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982038268, "dur":8862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982047147, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982050377, "dur":8533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982050366, "dur":8545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982058920, "dur":10779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982069783, "dur":9495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982069782, "dur":9498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982079297, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982083317, "dur":11224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982083316, "dur":11227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982094560, "dur":7780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982102410, "dur":10134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982102407, "dur":10140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982112564, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718364982116340, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982116338, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982116610, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982119165, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982119163, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982119291, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982120988, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982120987, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982121163, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982122573, "dur":431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982122572, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982123034, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982125313, "dur":94582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982125311, "dur":94585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982219922, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718364982222249, "dur":25984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1718364982248404, "dur":12563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1718364982261015, "dur":51187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1718364982312217, "dur":20000517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718364981843798, "dur":3299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718364981847105, "dur":983, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718364981848088, "dur":5440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718364981853544, "dur":245414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718364981853533, "dur":245426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718364982098970, "dur":152343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718364982259553, "dur":12864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718364982272445, "dur":74841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1718364982347304, "dur":19965433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718364981843833, "dur":3274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718364981847109, "dur":948, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718364981848058, "dur":5507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718364981853566, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1718364981881212, "dur":5090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1718364981886387, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1718364981886543, "dur":12915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1718364981899495, "dur":8396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364981899494, "dur":8399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364981910283, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364981913997, "dur":15522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981913996, "dur":15525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/CFXRRuntime.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981929537, "dur":13124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/CFXRRuntime.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981942781, "dur":20941, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981942781, "dur":20943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Burst.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981963733, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Burst.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981965866, "dur":31439, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981965865, "dur":31442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981997324, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981998867, "dur":4660, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364981998865, "dur":4663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982003539, "dur":25225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982028836, "dur":7294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982028834, "dur":7298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982036168, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982038117, "dur":8746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982038115, "dur":8754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982046881, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982050323, "dur":10127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982050321, "dur":10131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982060466, "dur":9110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982069628, "dur":12973, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982069627, "dur":12977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982082629, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982085952, "dur":9297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982085951, "dur":9300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982095264, "dur":7145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982102470, "dur":10110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982102468, "dur":10114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982112594, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718364982116309, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982116308, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982116528, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982118750, "dur":92442, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982118747, "dur":92448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982211219, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718364982213231, "dur":773965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718364982987295, "dur":19325437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364981843863, "dur":3247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364981847112, "dur":995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364981848107, "dur":5423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364981853550, "dur":10853, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1718364981853533, "dur":10873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1718364981935121, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1718364981939455, "dur":26789, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364981939454, "dur":26792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Animation.Runtime.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364981966265, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Animation.Runtime.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364981967225, "dur":32626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364981967224, "dur":32628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.AI.Navigation.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364981999861, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.AI.Navigation.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982000934, "dur":4200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982000933, "dur":4202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982005145, "dur":24443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982029632, "dur":10188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982029631, "dur":10191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982039833, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982043430, "dur":9571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982043429, "dur":9575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982053028, "dur":14931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982068033, "dur":16047, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982068032, "dur":16050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982084096, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982086879, "dur":9934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982086877, "dur":9939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982096831, "dur":7544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718364982104445, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982104536, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982104733, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982105032, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982105424, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982105697, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982105811, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982106087, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718364982106458, "dur":170, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982106631, "dur":59201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982106630, "dur":59204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982165858, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982167570, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982167569, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982167696, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982169572, "dur":844229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364982169570, "dur":844233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364983013822, "dur":8833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718364983022669, "dur":19290051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718364981843905, "dur":3250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718364981847157, "dur":1063, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718364981848220, "dur":5482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718364981853710, "dur":9422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1718364981853704, "dur":9429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1718364981919176, "dur":16079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1718364981935765, "dur":99973, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364981935764, "dur":99976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982035756, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982037591, "dur":12423, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982037590, "dur":12425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982050029, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982053204, "dur":8125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982053202, "dur":8129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982061340, "dur":8354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982069996, "dur":11470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982069995, "dur":11473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982081491, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982084754, "dur":10092, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982084752, "dur":10095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982094861, "dur":7582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982102496, "dur":9693, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982102495, "dur":9697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982112215, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718364982116377, "dur":120827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":9, "ts":1718364982116376, "dur":120830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":9, "ts":1718364982237231, "dur":25569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":9, "ts":1718364982262826, "dur":36124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level0" }}
-,{ "pid":12345, "tid":9, "ts":1718364982298967, "dur":20013768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718364981843952, "dur":3248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718364981847202, "dur":1153, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718364981848355, "dur":5302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718364981853669, "dur":8161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1718364981853660, "dur":8172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1718364981913822, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1718364981916197, "dur":116181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364981916196, "dur":116184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Mathematics.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982032406, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Mathematics.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982034307, "dur":8336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982034305, "dur":8342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982042705, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982045170, "dur":13939, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982045168, "dur":13943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982059120, "dur":11131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982070307, "dur":10574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982070306, "dur":10578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982080900, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982084534, "dur":10627, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982084532, "dur":10631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982095183, "dur":7213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982102499, "dur":10067, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982102498, "dur":10070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982112589, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718364982116344, "dur":126282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1718364982116343, "dur":126285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1718364982242653, "dur":102918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1718364982345588, "dur":19967138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718364981843946, "dur":3236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718364981847185, "dur":975, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718364981848160, "dur":5365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718364981853778, "dur":173022, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1718364982026801, "dur":1361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1718364982028163, "dur":985654, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1718364983013829, "dur":1244111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1718364984258026, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\PackageCache\\com.unity.burst@1.8.7\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":11, "ts":1718364981853533, "dur":2404660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":11, "ts":1718364988418607, "dur":13891592, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":12, "ts":1718364981843983, "dur":3345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718364981847329, "dur":154, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718364981847487, "dur":6109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718364981853596, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1718364981897215, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1718364981899298, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1718364981913895, "dur":543, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718364981899671, "dur":14799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1718364981914552, "dur":15395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981914550, "dur":15398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981937238, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718364981929960, "dur":7368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981937426, "dur":16935, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\OtoonShader.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981937425, "dur":16938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/OtoonShader.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981954378, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/OtoonShader.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981955645, "dur":18981, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981955644, "dur":18984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981974642, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981975888, "dur":30712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364981975888, "dur":30713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.IK.Runtime.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982006609, "dur":23285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.IK.Runtime.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982029909, "dur":7735, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982029908, "dur":7738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982037658, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982039376, "dur":7113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982039375, "dur":7116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982046528, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982048608, "dur":10353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982048607, "dur":10355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982058980, "dur":11223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982070242, "dur":11147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982070241, "dur":11149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982081402, "dur":4247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982085791, "dur":10892, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982085790, "dur":10895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982096700, "dur":7632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982104390, "dur":10241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982104384, "dur":10249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982114677, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718364982116504, "dur":2141695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1718364982116503, "dur":2141747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1718364984258262, "dur":4160288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1718364988418848, "dur":13893894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1718364981844010, "dur":3366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1718364981847377, "dur":6286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1718364981853663, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1718364981898789, "dur":12171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1718364981911003, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":13, "ts":1718364981911632, "dur":6207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":13, "ts":1718364981917882, "dur":15237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981917881, "dur":15240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981933174, "dur":5657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981938856, "dur":15997, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981938855, "dur":16000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Tilemap.Extras.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981954874, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Tilemap.Extras.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981956178, "dur":18601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981956176, "dur":18604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.PixelPerfect.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981974789, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.PixelPerfect.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981975898, "dur":46702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364981975897, "dur":46704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982022616, "dur":7576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982030241, "dur":6723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982030240, "dur":6726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982036991, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982039407, "dur":7386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982039405, "dur":7390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982046828, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982049369, "dur":9349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982049368, "dur":9351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982058729, "dur":11103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982069867, "dur":11438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982069865, "dur":11442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982081321, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982085711, "dur":9647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982085708, "dur":9652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982095372, "dur":18640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":13, "ts":1718364982114132, "dur":129610, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1718364982114130, "dur":129613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1718364982243757, "dur":19465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1718364982263259, "dur":763196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1718364983026587, "dur":19286135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364981844046, "dur":3659, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364981847705, "dur":5889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364981853594, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":14, "ts":1718364981867881, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":14, "ts":1718364981870574, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1718364981881189, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1718364981886654, "dur":6130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1718364981886653, "dur":6133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1718364981892799, "dur":6833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1718364981899704, "dur":47479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364981899703, "dur":47482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364981947217, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364981953116, "dur":15834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364981953115, "dur":15836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364981968963, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364981969949, "dur":36933, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364981969948, "dur":36935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982006892, "dur":23242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982030165, "dur":6348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982030164, "dur":6351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982036529, "dur":100, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982036631, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982039225, "dur":8275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982039224, "dur":8277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982047516, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982050738, "dur":7780, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982050737, "dur":7783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982058540, "dur":11787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982070364, "dur":11056, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982070363, "dur":11058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982081430, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982085712, "dur":10168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982085710, "dur":10172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982095898, "dur":8294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":14, "ts":1718364982104443, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982104632, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982104880, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982105153, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982105573, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982105864, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982106111, "dur":467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982106111, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982106593, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982106676, "dur":3241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982109960, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982109958, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982110113, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982114107, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982114105, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982114538, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982116654, "dur":79479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.MemoryProfiler.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982116653, "dur":79485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982201462, "dur":183, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1718364982196188, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.dll" }}
-,{ "pid":12345, "tid":14, "ts":1718364982201827, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":14, "ts":1718364982206258, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":14, "ts":1718364982208635, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":14, "ts":1718364982210260, "dur":1165471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1718364983375751, "dur":18936997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364981844074, "dur":3803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364981847878, "dur":5654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364981853552, "dur":23380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1718364981853533, "dur":23400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1718364981881196, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1718364981885229, "dur":6298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":15, "ts":1718364981885227, "dur":6302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":15, "ts":1718364981891547, "dur":18723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":15, "ts":1718364981910338, "dur":1196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":15, "ts":1718364981910338, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5.exe" }}
-,{ "pid":12345, "tid":15, "ts":1718364981939915, "dur":127973, "ph":"X", "name": "FileSystemWaitUntilFileModificationDateIsInThePast",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":15, "ts":1718364982068018, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5.exe" }}
-,{ "pid":12345, "tid":15, "ts":1718364982070491, "dur":10443, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982070489, "dur":10450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982080952, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982083992, "dur":13385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982083991, "dur":13388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982097389, "dur":6703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":15, "ts":1718364982104404, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982104506, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982104732, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105047, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105437, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105740, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105739, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105795, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982105994, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1718364982106176, "dur":80362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1718364982106171, "dur":80369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1718364982186563, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1718364982188617, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":15, "ts":1718364982190171, "dur":15584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":15, "ts":1718364982205830, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":15, "ts":1718364982208633, "dur":28598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1718364982237318, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level3" }}
-,{ "pid":12345, "tid":15, "ts":1718364982239181, "dur":21761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level2.resS" }}
-,{ "pid":12345, "tid":15, "ts":1718364982260970, "dur":480117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/level1" }}
-,{ "pid":12345, "tid":15, "ts":1718364982741182, "dur":19571543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364981844109, "dur":3775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364981847884, "dur":5643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364981853543, "dur":10856, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364981864417, "dur":589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364981865015, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1718364981937561, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1718364981943008, "dur":111085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364981943007, "dur":111088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364982054105, "dur":390, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982054504, "dur":26344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364982080890, "dur":15832, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364982080889, "dur":15835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364982096735, "dur":9047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":16, "ts":1718364982105861, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982105952, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982106113, "dur":72549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982106108, "dur":72555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982178677, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982180350, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982180538, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982180654, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982180831, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982180928, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181090, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181205, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181418, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181560, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181745, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982181864, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182013, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182101, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182347, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182604, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182851, "dur":5451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982182850, "dur":5454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/JUEGO3/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982188320, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1718364982189661, "dur":6519590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/JUEGO3/Doom2punto5_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1718364988709269, "dur":13603468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718365002367225, "dur":1262, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1718445492432412, "dur":14705, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445492447123, "dur":122, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445492447292, "dur":267, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445492447991, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Juego/Doom2punto5_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1718445492447570, "dur":2718, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445492450289, "dur":13921126, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445506371417, "dur":286, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445506371915, "dur":9139, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1718445492448094, "dur":2199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718445492450296, "dur":3274, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718445492465917, "dur":56309, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1718445492522234, "dur":63751, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445492585996, "dur":104440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1718445492690438, "dur":44331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1718445492734936, "dur":11574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492746514, "dur":449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492746964, "dur":12309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\OtoonShader.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492759275, "dur":25311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492784589, "dur":26257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492810848, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492810988, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492811169, "dur":151599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492962769, "dur":974, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492963745, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492963947, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492964113, "dur":1750, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718445492965960, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player7cba8ad1-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1718445492522232, "dur":444034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445492966682, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718445493173137, "dur":892301, "ph":"X", "name": "FileSystemWaitUntilFileModificationDateIsInThePast",  "args": { "detail":"Library\\Bee\\Player7cba8ad1-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1718445494065735, "dur":91814, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445494162934, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445494162934, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/Doom2punto5_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445494163203, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718445494164552, "dur":12206920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445492448355, "dur":2288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445492450643, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445492453833, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1718445492453816, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1718445492962471, "dur":7809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1718445492970370, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445492973028, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445492975777, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445492982191, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445492978780, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445492984348, "dur":506, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445492982363, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445492985064, "dur":192158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493177288, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445493177371, "dur":9813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493218922, "dur":3361, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718445493187258, "dur":35033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493222534, "dur":9250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493231862, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493234521, "dur":26636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718445493261435, "dur":33356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718445493294832, "dur":13076562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492448161, "dur":2147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492450310, "dur":996, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492451307, "dur":2269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492453598, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1718445492453582, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1718445492586049, "dur":161149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1718445492747273, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718445492747272, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718445492747758, "dur":62309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718445492810189, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445492810187, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445492963690, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492810328, "dur":153538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493177684, "dur":1852, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445492963950, "dur":215603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493179838, "dur":15709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493195622, "dur":22533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493225938, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445493218234, "dur":7799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493228970, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445493226108, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493236628, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445493229122, "dur":7566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493236784, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493240236, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718445493240340, "dur":21566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718445493262020, "dur":32787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1718445493294836, "dur":13076554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445492448231, "dur":2097, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445492450331, "dur":965, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445492451297, "dur":2436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445492453734, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1718445492965795, "dur":205165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1718445493196798, "dur":211, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493171159, "dur":25876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493197094, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493218929, "dur":3517, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493197153, "dur":25303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493222520, "dur":263, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493222786, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493226214, "dur":261, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493226477, "dur":7066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493233640, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493240001, "dur":1338, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493237479, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493241555, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493241652, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718445493263813, "dur":164, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493245171, "dur":18836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1718445493294764, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718445493264254, "dur":30580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1718445493294954, "dur":13076435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445492448175, "dur":2138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445492450316, "dur":1166, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445492451482, "dur":2386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445492453868, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1718445492747864, "dur":62917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1718445492810864, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/Doom2punto5_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1718445493171271, "dur":434, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445492811293, "dur":360422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1718445493171808, "dur":92, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445493171903, "dur":16257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718445493188624, "dur":155, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445493218502, "dur":3584, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445493188782, "dur":33311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718445493286392, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718445493222238, "dur":64248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718445493286676, "dur":8496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718445493295198, "dur":13076190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492448126, "dur":2173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492450306, "dur":674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492450981, "dur":2631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492453613, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1718445492809904, "dur":154134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1718445492964105, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492967384, "dur":6386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492973847, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492977116, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492975545, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492981084, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492977281, "dur":3965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492981329, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492983025, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492981413, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445492983246, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445492983303, "dur":190669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493174021, "dur":17007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493192617, "dur":26101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493218786, "dur":464, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445493219252, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493222326, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493226219, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493230295, "dur":8634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493239016, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445493243029, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718445493239078, "dur":4064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493243246, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493244933, "dur":21008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718445493266006, "dur":23736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718445493289834, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1718445493293894, "dur":13077501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492448238, "dur":2108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492450349, "dur":1082, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492451431, "dur":2142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492454700, "dur":235714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1718445492690419, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1718445492735082, "dur":24513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1718445492759660, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1718445492759659, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1718445492810995, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492759775, "dur":51335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1718445492811192, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445492835433, "dur":340704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493176306, "dur":98, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445493189240, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445493176406, "dur":12924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493218929, "dur":3701, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718445493189399, "dur":33238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493222810, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493227869, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493232461, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493235948, "dur":6690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493242717, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718445493246275, "dur":18039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1718445493264468, "dur":12891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1718445493277401, "dur":7317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718445493284785, "dur":8944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1718445493293848, "dur":13077551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445492448196, "dur":2122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445492450321, "dur":781, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445492451102, "dur":2640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445492453743, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1718445492968743, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1718445492974129, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445492976427, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445492979145, "dur":3671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445492982967, "dur":191403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445493175975, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445493176034, "dur":8362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445493184437, "dur":185, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445493184626, "dur":33602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445493218754, "dur":454, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718445493219210, "dur":42735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718445493262126, "dur":18429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718445493280647, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1718445493287441, "dur":6284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1718445493293836, "dur":13077565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718445492448291, "dur":2064, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718445492450357, "dur":1098, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718445492451455, "dur":2116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718445492453712, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492454048, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492454274, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492454475, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492454649, "dur":10802, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492465454, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492465774, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492465959, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492466103, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492466322, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.MemoryProfiler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492466442, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492466579, "dur":93225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492559807, "dur":61029, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492620838, "dur":114123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492734963, "dur":11293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492746258, "dur":673, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492746932, "dur":12293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\OtoonShader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492759227, "dur":25360, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492784589, "dur":50663, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492835256, "dur":127406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492962664, "dur":1081, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492963747, "dur":22259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718445492986102, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\WORKSPACE\\git\\Tfg_Doom2punto5\\Unity\\TFG\\Library\\PackageCache\\com.unity.burst@1.8.7\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":9, "ts":1718445492453581, "dur":532603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":9, "ts":1718445492987055, "dur":306, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718445493173930, "dur":13195727, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":10, "ts":1718445492448281, "dur":2070, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445492450353, "dur":1193, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445492451546, "dur":2028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445492453600, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1718445492453581, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1718445492967295, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1718445492973519, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445492977500, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445492979523, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445492982024, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493178016, "dur":1366, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445492984083, "dur":195354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493218952, "dur":3605, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445493179709, "dur":42859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493222692, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493226486, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445493229744, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445493226548, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493229963, "dur":4030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493234067, "dur":70, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445493234140, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493237143, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493239260, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493243298, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718445493247519, "dur":108, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718445493247629, "dur":37071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1718445493284814, "dur":5179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1718445493290064, "dur":13081355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445492448321, "dur":2039, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445492450402, "dur":892, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445492451294, "dur":2442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445492453747, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1718445492453736, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1718445493177452, "dur":2333, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445492964222, "dur":215768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1718445493180055, "dur":2795, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493218476, "dur":663, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493182854, "dur":36556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493219547, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493222235, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493226396, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493233204, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493229839, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493233348, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493236364, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493243396, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493239839, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493243591, "dur":100, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493243693, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718445493247412, "dur":152, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718445493247568, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1718445493249689, "dur":84996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1718445493334827, "dur":13036550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492448348, "dur":2282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492450632, "dur":240, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492450873, "dur":2837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492453710, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1718445492620587, "dur":127153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1718445492747814, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1718445492810375, "dur":169, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492747878, "dur":62674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1718445492810987, "dur":236, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445492835423, "dur":341793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718445493177796, "dur":1648, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445493191283, "dur":397, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445493179464, "dur":12230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.MemoryProfiler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718445493191775, "dur":769, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445493218559, "dur":3347, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718445493192548, "dur":29371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718445493221999, "dur":43857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718445493265974, "dur":16090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1718445493284195, "dur":10221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1718445493294443, "dur":13076981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445492448379, "dur":2276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445492450656, "dur":3136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445492453792, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1718445492690731, "dur":69320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1718445492963274, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445492784640, "dur":178717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445492963476, "dur":207653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493171354, "dur":344, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493193379, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493171973, "dur":21502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493196122, "dur":165, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493193665, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493218679, "dur":478, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493196443, "dur":22864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493219406, "dur":6418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493225924, "dur":4701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493230743, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493240100, "dur":313, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493233437, "dur":6985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493240515, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493244562, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718445493240610, "dur":4036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493244728, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718445493246733, "dur":15317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1718445493264170, "dur":15092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1718445493279301, "dur":7534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1718445493286919, "dur":8258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1718445493295203, "dur":13076175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445492448398, "dur":2268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445492450667, "dur":3046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445492453736, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1718445492453714, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1718445492735355, "dur":24421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1718445492759837, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1718445492760041, "dur":205329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1718445492969755, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445492965490, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445492970027, "dur":15704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493172396, "dur":1422, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445492985854, "dur":188038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493174001, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445493174060, "dur":11377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493185547, "dur":32748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493218903, "dur":3189, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445493222095, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493226028, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493229172, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493234233, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493239968, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718445493236367, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493240708, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493242669, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493244944, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493244939, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493245058, "dur":111314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718445493356426, "dur":13014949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718445492448424, "dur":2247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718445492450671, "dur":3141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718445492453813, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1718445492690494, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718445492690769, "dur":68910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1718445492759741, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1718445492759895, "dur":50260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1718445492810240, "dur":582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":15, "ts":1718445492810239, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/Doom2punto5.exe" }}
+,{ "pid":12345, "tid":15, "ts":1718445493176076, "dur":926630, "ph":"X", "name": "FileSystemWaitUntilFileModificationDateIsInThePast",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":15, "ts":1718445494102734, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5.exe" }}
+,{ "pid":12345, "tid":15, "ts":1718445494104414, "dur":12267131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492448466, "dur":2207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492450674, "dur":3137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492453825, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1718445492453812, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Juego/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1718445492967466, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492811292, "dur":156257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1718445492970525, "dur":137, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492967636, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493172001, "dur":104, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445492970750, "dur":201369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493172242, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493174533, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493172335, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/OtoonShader.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493177672, "dur":1451, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493174708, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493179369, "dur":290, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493179662, "dur":7901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493187635, "dur":302, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493187939, "dur":34024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493226002, "dur":182, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493222031, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493226289, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493228249, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493233996, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493237079, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493241213, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493261306, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718445493241268, "dur":20124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1718445493261519, "dur":27274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":16, "ts":1718445493288834, "dur":5350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Juego/Doom2punto5_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1718445493294641, "dur":13076754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718445506390732, "dur":889, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

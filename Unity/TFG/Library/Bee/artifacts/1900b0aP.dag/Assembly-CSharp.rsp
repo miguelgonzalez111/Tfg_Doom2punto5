@@ -314,6 +314,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Collections.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.MemoryProfiler.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"

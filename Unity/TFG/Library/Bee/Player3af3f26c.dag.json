@@ -721,8 +721,8 @@
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.dll",
+        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -1763,18 +1763,6 @@
       "DebugActionIndex": 107
     },
     {
-      "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
-      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
-      ],
-      "Outputs": [
-        "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
-      ],
-      "DebugActionIndex": 108
-    },
-    {
       "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.dll",
       "DisplayName": "Copying Unity.MemoryProfiler.dll",
       "ActionType": "CopyFiles",
@@ -1783,6 +1771,18 @@
       ],
       "Outputs": [
         "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+      ],
+      "Outputs": [
+        "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
       "DebugActionIndex": 109
     },
@@ -3203,18 +3203,6 @@
       "DebugActionIndex": 227
     },
     {
-      "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
-      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
-      ],
-      "Outputs": [
-        "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
-      ],
-      "DebugActionIndex": 228
-    },
-    {
       "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.pdb",
       "DisplayName": "Copying Unity.MemoryProfiler.pdb",
       "ActionType": "CopyFiles",
@@ -3223,6 +3211,18 @@
       ],
       "Outputs": [
         "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.MemoryProfiler.pdb"
+      ],
+      "DebugActionIndex": 228
+    },
+    {
+      "Annotation": "CopyFiles E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
+      ],
+      "Outputs": [
+        "E:/JUEGO3/Doom2punto5_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
       ],
       "DebugActionIndex": 229
     },
@@ -3493,8 +3493,8 @@
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.dll",
+        "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "E:/WORKSPACE/git/Tfg_Doom2punto5/Unity/TFG/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
