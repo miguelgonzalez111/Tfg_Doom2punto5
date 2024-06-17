@@ -6,6 +6,10 @@ Documentacion
 
 https://docs.google.com/document/d/1lvjZ5xxv025Q50EtR_x7A6NPEu07B483na8u6zepFvg/edit?usp=sharing
 
+Ejecutable:
+
+https://drive.google.com/file/d/1nW-4yt2jnWkEodsVdxQBE3dGYSzLkueb/view?usp=sharing
+
 
 libburst-llvm-15 
 Va en Tfg_Doom2punto5\Unity\test1\Library\PackageCache\com.unity.burst@1.8.7\.Runtime
